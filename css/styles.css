@@ -18,10 +18,13 @@ body {
   /*display: flex;
   justify-content: space-between;
   align-items: center;*/
-
 }
 /* Сброс*/
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -100,19 +103,25 @@ ul {
 
 .hero {
   background: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white);
 }
 
 .hero-btn {
+  /* display: inline-block; */
+  padding: 10px 32px;
+  border-radius: 4px;
+  min-width: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -142,6 +151,7 @@ ul {
 
 /* ======== COMPONENTS ========*/
 .common-headings {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -152,6 +162,11 @@ ul {
 
 /* ======== ABOUT ========*/
 
+.about {
+  padding-top: 89px;
+  padding-bottom: 94px;
+}
+
 .about-title {
   font-weight: 700;
   font-size: 14px;
@@ -161,6 +176,7 @@ ul {
 }
 
 .about-description {
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -171,13 +187,24 @@ ul {
 
 /* ======== /ABOUT ========*/
 
+/* ======== НАШИ РАБОТЫ ========*/
+
+.examples {
+  padding-bottom: 94px;
+}
+
+/* ======== /НАШИ РАБОТЫ ========*/
+
 /* ======== TEAM ========*/
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
 }
 
 .team-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -185,7 +212,12 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.team-img {
+  margin-bottom: 30px;
+}
+
 .subtitle {
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19x;
@@ -200,7 +232,17 @@ ul {
 /* ======== FOOTER ========*/
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
+}
+.footer > .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  margin-bottom: 9px;
 }
 
 .footer .accent {
@@ -303,7 +345,4 @@ ul {
   color: var(--accent-color);
 }
 
-
 /* ======== /OUR WORK ========*/
-
-
