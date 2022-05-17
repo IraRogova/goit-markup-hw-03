@@ -8,6 +8,18 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;*/
+
+}
 /* Сброс*/
 h1, h2, h3, h4, p {
   margin-top: 0;
@@ -28,6 +40,7 @@ ul {
 .list {
   list-style: none;
 }
+
 /* ======== HEADER MAIN========*/
 .logo {
   font-family: 'Raleway', sans-serif;
