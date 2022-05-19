@@ -9,7 +9,7 @@ body {
   color: #212121;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -17,7 +17,7 @@ body {
   
   
   
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -309,16 +309,18 @@ ul {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  /* padding-left: 215px; */
   background: #2f303a;
 }
-.footer > .logo {
+.footer-logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.footer-list {
+.footer-list:not(:last-child) {
   margin-bottom: 9px;
 }
+
 
 .footer .accent {
   font-family: 'Raleway', sans-serif;
@@ -413,7 +415,7 @@ ul {
 .our-work-list {
   display: flex;
   flex-wrap: wrap;
-  background-color: #188ce8;
+  /* background-color: #188ce8; */
 }
 
 
