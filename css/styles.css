@@ -415,9 +415,12 @@ ul {
 .our-work-list {
   display: flex;
   flex-wrap: wrap;
+  
   /* background-color: #188ce8; */
 }
-
+ .project-border {
+  border-bottom: 1px solid #EEEEEE;
+ }
 
 
 
