@@ -20,6 +20,8 @@ body {
   /* outline: 2px solid tomato; */
 }
 
+
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -52,6 +54,11 @@ ul {
 
 /* ======== HEADER MAIN========*/
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+
 .nav-flex {
   display: flex;
   align-items: center;
@@ -79,8 +86,8 @@ ul {
 
 .navigation .link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation .accent {
@@ -160,14 +167,19 @@ ul {
 .hero {
   background: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  
   margin-bottom: 30px;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+  max-width: 696px;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-white);
@@ -181,9 +193,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   cursor: pointer;
   background: var(--accent-color);
@@ -218,6 +228,9 @@ ul {
 
 /* ======== ABOUT ========*/
 
+.about {
+  padding-bottom: 0px;
+}
 
 .about-flex {
   display: flex;
@@ -254,6 +267,10 @@ ul {
 
 /* ======== Examples ========*/
 
+img {
+  display: block;
+}
+
 .example-flex {
   display: flex;
 }
@@ -279,22 +296,21 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.team-img {
+/* .team-img {
   margin-bottom: 30px;
-}
+} */
 
 .subtitle {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19x;
+  line-height: 1.19;
   /*text-align: center;*/
   letter-spacing: 0.03em;
 
   color: var(--accent-black);
 }
 
-/* ======== /TEAM ========*/
 
 .team-flex {
   display: flex;
@@ -304,6 +320,12 @@ ul {
   margin-left: 30px;
 }
 
+.pic-discription {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+/* ======== /TEAM ========*/
 /* ======== FOOTER ========*/
 
 .footer {
@@ -371,7 +393,7 @@ ul {
 .menu-flex {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .menu-flex .item + .item {
@@ -379,6 +401,7 @@ ul {
 }
 
 .filter-btn {
+  padding: 6px 22px;
   /* display: flex; */
   font-family: inherit;
   font-weight: 500;
@@ -418,11 +441,16 @@ ul {
   
   /* background-color: #188ce8; */
 }
- .project-border {
-  border-bottom: 1px solid #EEEEEE;
- }
+ 
 
+.our-work-title{
+  padding: 4px;
+  border: 1px solid #EEEEEE;
+}
 
+.project-name {
+  margin-bottom: 4px;
+}
 
 .our-work-item {
   width: 370px;
